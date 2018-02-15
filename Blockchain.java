@@ -10,16 +10,6 @@ import java.util.ArrayList;
 public class Blockchain{
 
 	public static void main(String[] args){
-		/*
-		//codigo para ver como se comporta el hash
-		String[] list1 = {"a","b","c"};
-		String[] list2 = {"aa","b","c"};
-
-		System.out.println("firma digital de la lista 1: " + Arrays.hashCode(list1));
-		System.out.println("firma digital de la lista 2: " + Arrays.hashCode(list2));
-
-		*/
-
 		ArrayList<Block> blockChain = new ArrayList<Block>(); //generamos un arrayList para asi tener los bloques en cadena 
 
 		String[] genesisTransactions = {"satoshi envia 10 bitcoins a ivan","juan envia 200 bitcoin a ivan"};
